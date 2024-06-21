@@ -42,27 +42,27 @@ const Navbar = () => {
         <div className="menu hidden md:block md:auto" id="navbar">
        <ul className="flex p-2 md:p-0 md:flex-row md:space-x-4 mt-3">
         <li>
-            <span className="bg-green-500 p-2 rounded-md">
+            <span className="bg-green-500 hover:bg-green-600 p-2 rounded-md">
             <a href="/" className="text-white">Home</a>
             </span>
         </li>
         <li>
-        <span className="bg-green-500 p-2 rounded-md">
-            <a href="/" className="text-white">About</a>
+        <span className="bg-green-500 hover:bg-green-600  p-2 rounded-md">
+            <a href="/about" className="text-white">About Us</a>
             </span>
         </li>
         <li>
-        <span className="bg-green-500 p-2 rounded-md">
+        <span className="bg-green-500 hover:bg-green-600 p-2 rounded-md">
             <a href="/" className="text-white">News</a>
             </span>
         </li>
         <li>
-        <span className="bg-green-500 p-2 rounded-md">
+        <span className="bg-green-500 hover:bg-green-600 p-2 rounded-md">
             <a href="/" className="text-white">Contact</a>
             </span>
         </li>
         <li>
-        <span className="bg-green-500 p-2 rounded-md">
+        <span className="bg-green-500 hover:bg-green-600  p-2 rounded-md">
             <a href="https://login.energycap.com/login?loginRedirectUrl=%2Frecent" className="text-white">Customer Login</a>
             </span>
         </li>
