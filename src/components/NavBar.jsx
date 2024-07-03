@@ -58,7 +58,7 @@ const Navbar = () => {
         </li>
         <li>
         <span className="bg-green-500 hover:bg-green-600 p-2 rounded-md">
-            <a href="/" className="text-white">Contact</a>
+            <a href="#contact" className="text-white">Contact</a>
             </span>
         </li>
         <li>

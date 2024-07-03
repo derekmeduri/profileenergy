@@ -33,6 +33,13 @@ const Footer = () => {
                 </div>
                 <div>
                     <h5>
+                        <a href="/news"   className="text-lg hover:underline">
+                        News
+                        </a>
+                    </h5>
+                </div>
+                <div>
+                    <h5>
                         <a href="#contact"   className="text-lg hover:underline">
                         Contact Us
                         </a>

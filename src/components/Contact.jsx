@@ -11,10 +11,10 @@ const Contact = () => {
                 </p>
                 <div className="flex flex-row gap-2"> 
                 <a href="https://www.eia.gov/">
-                     <img src="src/assets/images/eiabuglogo.jpg" alt="eia logo" height={100} width={100}/>
+                     <img src="public/images/eiabuglogo.jpg" alt="eia logo" height={100} width={100}/>
                 </a>
                  <a href="https://www.energystar.gov/">
-                    <img src="src/assets/images/Energy_Star_logo.png" alt="eia logo" height={65} width={65} />
+                    <img src="public/images/Energy_Star_logo.png" alt="energystar logo" height={65} width={65} />
                 </a>
                 </div>
             <div className="mb-6">
