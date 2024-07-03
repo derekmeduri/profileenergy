@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer className="footer flex justify-center bg-green-600 w-full">
-            <div className="grid grid-cols-4 gap-8 py-8 px-6 text-white">
+            <div className="grid grid-cols-5 gap-6 py-8 px-8 text-white">
                 <div>
                     <h5>
                     <a href="/"
@@ -66,12 +66,12 @@ const Footer = () => {
                     <ul>
                         <li className="mb-2 mt-1">
                         <a href="https://www.eia.gov/">
-                     <img src="src/assets/images/eiabuglogo.jpg" alt="eia logo" height={50} width={50}/>
+                     <img src="public/images/eiabuglogo.jpg" alt="eia logo" height={50} width={50}/>
                      </a>
                         </li>
                         <li>
                         <a href="https://www.energystar.gov/">
-                    <img src="src/assets/images/Energy_Star_logo.png" alt="eia logo" height={50} width={50} />
+                    <img src="public/images/Energy_Star_logo.png" alt="eia logo" height={50} width={50} />
                 </a>
                         </li>
                     </ul>
