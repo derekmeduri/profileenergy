@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="footer flex justify-center bg-green-600 w-full">
-            <div className="grid grid-cols-5 gap-6 py-8 px-8 text-white">
+        <footer className=" bg-green-600 w-full">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6 py-8 px-8 text-white">
                 <div>
                     <h5>
                     <a href="/"
@@ -66,23 +66,24 @@ const Footer = () => {
                     <ul>
                         <li className="mb-2 mt-1">
                         <a href="https://www.eia.gov/">
-                     <img src="public/images/eiabuglogo.jpg" alt="eia logo" height={50} width={50}/>
+                     <img src="/images/eiabuglogo.jpg" alt="eia logo" height={50} width={50}/>
                      </a>
                         </li>
                         <li>
                         <a href="https://www.energystar.gov/">
-                    <img src="public/images/Energy_Star_logo.png" alt="eia logo" height={50} width={50} />
+                    <img src="/images/Energy_Star_logo.png" alt="eia logo" height={50} width={50} />
                 </a>
                         </li>
                     </ul>
                 </div>
-            <div>
-            <p className="text-sm">
+              
+            </div>
+            
+            <div className="text-white items-center py-6 px-4 flex justify-between">
+            <p className="text-sm sm:text-center">
             © 2024 Profile Energy, Inc. All Rights Reservered.
             </p>
             </div>
-            </div>
-           
         </footer>
     )
 }

@@ -4,23 +4,24 @@ const Contact = () => {
             id="contact"
             className="grid md:grid-cols-2 my-12 py-24 md:my-12 gap-4 relative">
         
-            <div className="z-10">
+            <div>
                 <h5 className="text-xl font-bold my-2">Contact Us</h5>
                 <p className="text-green-500 mb-4 max-w-md">
                 Learn how Profile Energy can help manage your utility expenses!
                 </p>
                 <div className="flex flex-row gap-2"> 
                 <a href="https://www.eia.gov/">
-                     <img src="public/images/eiabuglogo.jpg" alt="eia logo" height={100} width={100}/>
+                     <img src="/images/eiabuglogo.jpg" alt="eia logo" height={100} width={100}/>
                 </a>
                  <a href="https://www.energystar.gov/">
-                    <img src="public/images/Energy_Star_logo.png" alt="energystar logo" height={65} width={65} />
+                    <img src="/images/Energy_Star_logo.png" alt="energystar logo" height={65} width={65} />
                 </a>
                 </div>
             <div className="mb-6">
                 <p>
                     535 N. Broad St., Suite 2, Canfield, Ohio 44406
                 </p>
+            </div>
             </div>
                 <div>
                     <form className="flex flex-col"> 
@@ -79,7 +80,7 @@ const Contact = () => {
 
                 </form>
             </div>
-            </div>
+            
         </section>
     )
 
